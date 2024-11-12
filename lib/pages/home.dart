@@ -60,6 +60,7 @@ class _HomePageState extends State<HomePage> {
                         "ERASE ${bw + 200 + bw + 300 + bw}, ${padding + bw + 200 + bw + 72 + bw + 60 + bw}, 67, 58", // qty/package box
                         // "BARCODE ${bw + 20}, ${bw + 20}, \"128\", 160, 1, 0, 1, 1, \"test\"",
                         // "BITMAP 200,200,2,16,0, -????? ",
+                        "QRCODE ${bw + 20}, ${bw + 20}, M, 4, M, 0, M2, \"https://github.com/twintra\" ",
                         "TEXT ${bw + 200 + bw + 5}, ${padding + bw + 20}, \"3\", 0, 1, 1, \"Item Label\" ",
                         "TEXT ${bw + 200 + bw + 300 + bw + 15}, ${padding + bw + 30}, \"1\", 0, 1, 1, \"0\" ",
                         "TEXT ${bw + 200 + bw + 5}, ${padding + bw + 52 + bw + 25}, \"1\", 0, 1, 1, \"Case Mark : BF05E1\" ",
